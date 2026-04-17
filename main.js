@@ -73,12 +73,12 @@ function displayResults(definitions) {
         const audio = definition.phonetics?.find(p => p.audio)?.audio || "";
         const speech = definition.meanings?.[0]?.partOfSpeech || "N/A";
         const meaning = definition.meanings?.[0]?.definitions?.[0]?.definition || "";
-        const example = definition.meanings?.[0]?.definitions?.[0]?.example || "No available example";
+        const example = definition.meanings?.[0]?.definitions?.[0]?.example || "No example available";
         
 
         detailsCard.innerHTML = `
-            <h3>${word} (${phonetic})</h3>
-            ${audio ? `<button class="audio-btn">Play</button>` : ""}
+            <h3>${word}</h3>
+            <span> (${phonetic}) ${audio ? `<button class="audio-btn"><i class="fa-solid fa-play"></i></button>` : ""} </span>
             <p><strong>Part of Speech:</strong> ${speech}</p>
             <p><strong>Definition:</strong> ${meaning}</p>
             <p>Example: <em>${example}</em></p>
@@ -115,7 +115,7 @@ async function addToFavourites(definition) {
     const audio = definition.phonetics?.find(p => p.audio)?.audio || "";
     const speech = definition.meanings?.[0]?.partOfSpeech || "N/A";
     const meaning = definition.meanings?.[0]?.definitions?.[0]?.definition || "";
-    const example = definition.meanings?.[0]?.definitions?.[0]?.example || "No available example";
+    const example = definition.meanings?.[0]?.definitions?.[0]?.example || "No example available";
 
     await fetch("http://localhost:3000/favourites", {
         method: "POST",

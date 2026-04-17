@@ -13,32 +13,34 @@
 <body>
     <header>
         <nav>
-            <div id="logo"><img src="" alt=""></div>
+            <div id="logo"><i class="fa-solid fa-w"></i></div>
 
             <div id="links">
-                <a href="">Search for word</a>
-                <a href="">Word of the day</a>
-                <a href="">My Favourites</a>
+                <ul>
+                    <li><a href="#search-section">Search</a></li>
+                    <li><a href="#daily-word">Word of the day</a></li>
+                    <li><a href="#favourites">My Favourites</a></li>
+                </ul>                
             </div>
         </nav>
     </header>
 
     <section id="hero-section">
-
+        <h2>Welcome to Wordly!</h2>
     </section>
 
-    <hr>
+    
 
     <section id="search-section">
-        <h2>Search for a word</h2>
 
-        <div id="search-bar">
+        <div class="search-bar">
             <div id="input">
-                <input type="text" id="search-input" placeholder="Enter word...">
+                <input type="text" id="search-input" placeholder="Search for a word...">
                 <i class="fa-solid fa-xmark" id="clear-btn"></i>
             </div>
-
+            
             <button id="search-btn">Search</button>
+            
         </div>
 
         <div id = "results-container">
@@ -47,7 +49,7 @@
 
     </section>
 
-    <hr>
+    
 
     <section id="daily-word">
         <h2>Word of the Day</h2>
@@ -56,7 +58,7 @@
          </div>
     </section>
 
-    <hr>
+   
 
     <section id="favourites">
         <h2>My Favourites</h2>
@@ -65,8 +67,6 @@
 
         </div>
     </section>
-
-    <!-- Not sure if we'll need a footer but we'll see -->
 
     <script src="main.js"></script>
 </body>

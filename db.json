@@ -1,0 +1,14 @@
+{
+  "favourites": [
+    {
+      "word": "cold",
+      "phonetic": "/kɔʊld/",
+      "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/cold-uk.mp3",
+      "speech": "adjective",
+      "meaning": "(of a thing) Having a low temperature.",
+      "example": "A cold wind whistled through the trees.",
+      "id": "CFftHaRcPEg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

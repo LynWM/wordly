@@ -1,13 +1,50 @@
 {
   "favourites": [
     {
-      "word": "cold",
-      "phonetic": "/kɔʊld/",
-      "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/cold-uk.mp3",
-      "speech": "adjective",
-      "meaning": "(of a thing) Having a low temperature.",
-      "example": "A cold wind whistled through the trees.",
-      "id": "CFftHaRcPEg"
+      "word": "king",
+      "phonetic": "/kɪŋ/",
+      "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/king-uk.mp3",
+      "speech": "noun",
+      "meaning": "A male monarch; a man who heads a monarchy. If it's an absolute monarchy, then he is the supreme ruler of his nation.",
+      "example": "Henry VIII was the king of England from 1509 to 1547.",
+      "id": "ZpyaRRbSFQQ"
+    },
+    {
+      "word": "child",
+      "phonetic": "/t͡ʃaɪld/",
+      "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/child-uk.mp3",
+      "speech": "noun",
+      "meaning": "A person who has not yet reached adulthood, whether natural (puberty), cultural (initiation), or legal (majority)",
+      "example": "Go easy on him: he is but a child.",
+      "id": "ICx_V0WJ9hM"
+    },
+    {
+      "word": "jew",
+      "phonetic": "/dʒuː/",
+      "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/jew-us.mp3",
+      "speech": "noun",
+      "meaning": "The jewfish.",
+      "example": "No example available",
+      "id": "k0G3v3O2Yjo"
+    },
+    {
+      "word": "word",
+      "phonetic": "/wɜːd/",
+      "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/word-us.mp3",
+      "speech": "verb",
+      "meaning": "(except in set phrases) To be, become, betide.",
+      "example": "Well worth thee, me friend.",
+      "id": "GxzrtKkEUOc"
+    },
+    {
+      "word": "preach",
+      "phonetic": "/pɹiːt͡ʃ/",
+      "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/preach-uk.mp3",
+      "speech": "noun",
+      "meaning": "A religious discourse.",
+      "example": "No example available",
+      "id": "V-Z5sjZ0meM"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

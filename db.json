@@ -9,6 +9,5 @@
       "example": "A cold wind whistled through the trees.",
       "id": "CFftHaRcPEg"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }
